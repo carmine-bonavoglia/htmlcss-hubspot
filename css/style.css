@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Classi riutilizzabili */
+.container{
+  width: 65%;
+  margin: auto;
+  /* Da cancellare */
+  height: 1000px;
+  background-color: pink;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Header */
+.nav-fixed{
+  width: 100%;
+  height: 55px;
+  /* Da cancellare */
+  background-color: green;
+}
+
+.nav-top{
+  width: 100%;
+  height: 85px;
+  /* Da cancellare */
+  background-color: red;
+}
+
+.jumbotron{
+  width: 100%;
+  height: 800px;
+  background-color: grey;
+}
+/* /Header */
