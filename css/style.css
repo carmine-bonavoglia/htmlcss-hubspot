@@ -133,4 +133,34 @@ header{
   height: 750px;
   background-color: rgba(173, 173, 173, 0.5);
 }
+
+.jumbo-text{
+  width: 40%;
+  text-align: left;
+  padding-top: 10%;
+}
+
+.jumbo-text h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 42px;
+  color: #33475b;
+}
+
+.jumbo-text p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #33475b;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 2.2;
+}
+
+.jumbo-text p.small{
+  font-size: 12px;
+}
+
+.jumbo-text a{
+  margin-bottom: 50px;
+}
+
 /* /Header */
