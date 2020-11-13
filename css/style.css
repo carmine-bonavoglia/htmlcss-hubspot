@@ -14,18 +14,6 @@ font-family: 'Montserrat', sans-serif;
 
 font-family: 'Open Sans Condensed', sans-serif;
 
-Link immagini:
-
-https://www.hubspot.com/hubfs/assets/hubspot.com/_style-guide/sword-sprocket/CRM-Illustration.svg
-
-https://www.hubspot.com/hubfs/Marketing-Hub-Free.svg
-
-https://www.hubspot.com/hubfs/assets/hubspot.com/_style-guide/sword-sprocket/Sales-Professional-Illustration.svg
-
-https://www.hubspot.com/hubfs/assets/hubspot.com/_style-guide/sword-sprocket/Service-Hub-Illustration.svg
-
-https://www.hubspot.com/hubfs/assets/hubspot.com/home/2018/Integrations_Illustration@2x.png
-
 */
 
 /* Classi riutilizzabili */
@@ -103,6 +91,20 @@ li{
 
 a:hover{
   color: #ff7a59;
+}
+
+
+h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #33475b;
+}
+
+p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #33475b;
+  line-height: 1.4;
 }
 
 /* Header */
@@ -249,19 +251,21 @@ main{
 
 .box .container{
   background: white;
-  padding: 80px;
+  padding: 40px 20px;
   margin-bottom: 40px;
   border-radius: 5px;
   box-shadow: 0px 0px 3px 3px rgba(136, 136, 136, 0.2);
 }
 
+
 .book-btn{
   width: 30%;
+  padding: 0 5%;
   text-align: center;
 }
 
 .book-btn img{
-  height: 120px;
+  height: 100px;
   margin-bottom: 50px;
 }
 
@@ -271,6 +275,26 @@ main{
 
 .free-crm{
   width: 70%;
+  padding-right: 10%
+}
+
+.bar::after{
+  content: '';
+  display: block;
+  float:right;
+  width: 65%;
+  height: 2px;
+  margin-top: 9px;
+  background-color: #33475b;
+}
+
+.free-crm span{
+  font-size: 18px;
+  color: #33475b;
+}
+
+.free-crm ul{
+  margin-top: 25px;
 }
 
 .box-3-sec .container{
@@ -295,23 +319,10 @@ main{
   height: 120px;
 }
 
-.box-3 h2{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #33475b;
-}
-
 .box-3 hr{
   margin-top: 40px;
   margin-bottom: 20px;
   color: #33475b;
-}
-
-.box-3 p{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #33475b;
-  line-height: 1.4;
 }
 
 .box-3 li{
