@@ -218,8 +218,19 @@ header{
 
 /* Main */
 .power{
-  height: 300px;
-  background-color: lightgrey;
+  background-color: #f4f9fd;
+  text-align: center;
+  padding: 50px 100px;
+  line-height: 1.6;
+}
+
+.power img{
+  height: 180px;
+}
+
+.power h1{
+  font-size: 32px;
+  padding-bottom: 20px;
 }
 
 .box{
