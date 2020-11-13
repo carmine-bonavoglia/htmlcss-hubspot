@@ -14,11 +14,23 @@ font-family: 'Montserrat', sans-serif;
 
 font-family: 'Open Sans Condensed', sans-serif;
 
+Link immagini:
+
+https://www.hubspot.com/hubfs/assets/hubspot.com/_style-guide/sword-sprocket/CRM-Illustration.svg
+
+https://www.hubspot.com/hubfs/Marketing-Hub-Free.svg
+
+https://www.hubspot.com/hubfs/assets/hubspot.com/_style-guide/sword-sprocket/Sales-Professional-Illustration.svg
+
+https://www.hubspot.com/hubfs/assets/hubspot.com/_style-guide/sword-sprocket/Service-Hub-Illustration.svg
+
+https://www.hubspot.com/hubfs/assets/hubspot.com/home/2018/Integrations_Illustration@2x.png
+
 */
 
 /* Classi riutilizzabili */
 .container{
-  width: 65%;
+  width: 70%;
   margin: auto;
 }
 
@@ -94,20 +106,16 @@ a:hover{
 
 /* Header */
 header{
-  background-color: #fff4ee;
-  background-image: url('../img/jumbotron.png');
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
-  position: relative;
+  display: unset;
 }
 
-/* Fixed Menu */
-.nav-fixed{
+/* Top Menu */
+.nav-top{
   width: 100%;
-  height: 55px;
-  position: fixed;
+  height: 80px;
+  line-height: 80px;
   background-color: #f4f9fd;
+  border-bottom: 1px solid #33475b;
 }
 
 .border{
@@ -116,48 +124,63 @@ header{
 
 .fixed-left{
   width: 50%;
-  height: 55px;
-  line-height: 55px;
   text-align: left;
 }
 
 .fixed-right{
   width: 50%;
-  height: 55px;
-  line-height: 55px;
   text-align: right;
 }
-/* /Fixed Menu */
+/* /Top Menu */
 
-/* Menu con Logo */
-.nav-top{
+/* Menu fixed */
+.nav-fixed{
   width: 100%;
-  height: 135px;
-  line-height: 135px;
+  height: 80px;
+  line-height: 80px;
   background-color: white;
-  box-shadow: 0px 2px 3px lightgrey;
-  padding-top: 30px;
-}
-
-.top-menu{
-  width: 100%;
-  height: 135px;
+  box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  z-index: 1;
+  top: 0;
 }
 
 .img-logo{
   width: 30%;
-  text-align: left;
+}
+
+.img-logo img{
+  vertical-align: middle;
 }
 
 .top-menu-right{
   width: 70%;
   text-align: right;
 }
-/* /Menu con Logo */
+/* /Menu fixed */
 
+/* Jumbotron */
 .jumbotron{
   width: 100%;
-  height: 750px;
+  height: 690px;
+  background-color: #fff4ee;
+  background-image: url('../img/jumbotron.png');
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  position: relative;
+}
+
+.jumbotron::before{
+  width: 100%;
+  height: 79px;
+  background-color: #afebe4;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content:'';
+  display: block;
 }
 
 .jumbo-text{
@@ -189,15 +212,30 @@ header{
   margin-bottom: 50px;
 }
 
-.jumbo-bar{
-  width: 100%;
-  height: 78px;
-  border-top: 3px solid #33475b;
-  border-bottom: 3px solid #33475b;
-  background-color: #afebe4;
-  position: absolute;
-  top: 100%;
-  transform: translateY(-100%)
-}
+/* /Jumbotron */
 
 /* /Header */
+
+/* Main */
+.power{
+  height: 300px;
+  background-color: lightgrey;
+}
+
+.box{
+  height: 600px;
+  background-color: grey;
+}
+
+.learn{
+  height: 600px;
+  background-color: blue;
+}
+
+.growe{
+  height: 600px;
+  background-color: lightgrey;
+}
+
+
+/* /Main */
