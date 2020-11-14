@@ -436,8 +436,65 @@ margin-left: 5px;
 /* /learning */
 
 .growe{
-  height: 600px;
-  background-color: lightgrey;
+  padding-top: 100px;
+  background-color: white;
 }
 
+.growe-brand{
+  padding-bottom: 50px;
+}
+
+.brand-text{
+  width: 40%;
+  text-align: center;
+  padding: 0 5%;
+}
+
+.brand-text h2{
+  font-size: 50px;
+}
+
+.brand-text p, .img-text p{
+  color: #33475b;
+}
+
+.brand-row{
+  width: 60%;
+  text-align: center;
+}
+
+.grid-logo{
+  margin-bottom: 30px;
+}
+
+.grid-cell{
+  width: 25%;
+  text-align: right;
+}
+
+.grid-cell img{
+  width: 110px;
+}
+
+.img-text{
+  width: 40%;
+  text-align: left;
+}
+
+p.small{
+  font-size: 12px;
+}
+
+.img-text p{
+  margin: 50px 0;
+}
+
+.img-right{
+  width: 60%;
+  text-align: right;
+}
+
+.img-right img{
+  height: 350px;
+}
 /* /Main */
