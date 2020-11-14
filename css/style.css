@@ -97,6 +97,15 @@ a:hover{
 h2{
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 30px;
+  color: #33475b;
+}
+
+
+h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 26px;
   color: #33475b;
 }
 
@@ -257,6 +266,10 @@ main{
   box-shadow: 0px 0px 3px 3px rgba(136, 136, 136, 0.2);
 }
 
+.box p{
+    color: #33475b;
+}
+
 
 .book-btn{
   width: 30%;
@@ -299,6 +312,10 @@ main{
 
 .box-3-sec .container{
   margin-bottom: 40px;
+}
+
+.box-3-sec p{
+  color: #33475b;
 }
 
 .box-3{
@@ -346,10 +363,77 @@ main{
 }
 /* /Boxes */
 
+/* Learning */
 .learn{
-  height: 600px;
-  background-color: blue;
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+  padding-top: 2%;
+  padding-bottom: 5% ;
 }
+
+.learn-text{
+  text-align: center;
+  color: white;
+}
+
+.learn-text h2, p{
+  color: white;
+}
+
+.learn-boxes{
+  margin-top: 40px;
+}
+
+.box-4-top .box-4{
+  border-top: none;
+}
+
+.box-4-top .box-4:first-child{
+  border-left: none;
+}
+
+.box-4-top .box-4:last-child{
+  border-right: none;
+}
+
+.box-4-bottom .box-4{
+  border-bottom: none;
+}
+
+.box-4-bottom .box-4:first-child{
+  border-left: none;
+}
+
+.box-4-bottom .box-4:last-child{
+  border-right: none;
+}
+
+.box-4{
+  width: 25%;
+  padding: 2%;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.resize{
+  width: 150px;
+}
+
+.box-4 h4{
+  font-size: 38px;
+  color: white;
+  margin-top: 20px;
+}
+
+.box-4 h4::after{
+content: "+";
+display: inline-block;
+font-size: 24px;
+font-style: normal;
+vertical-align: middle;
+margin-left: 5px;
+}
+
+/* /learning */
 
 .growe{
   height: 600px;
