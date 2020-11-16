@@ -586,6 +586,10 @@ a.btn-grey:hover{
   right: 1%;
 }
 
+.robot-mex:hover{
+  cursor:pointer;
+}
+
 .cloud{
   position: fixed;
   text-align: center;
@@ -596,16 +600,12 @@ a.btn-grey:hover{
 .robot-mex img{
   width: 60px;
   transform: translateY(-50%);
-  /* z-index: 100; */
 }
 
 .robot-mex p{
   border-radius: 5px;
   color: #33475b;
   transform: translateY(-45%);
-  /* width: 200px; */
-  /* padding: 30px 20px; */
-  /* z-index: 99; */
 }
 
 .cloud{
