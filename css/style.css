@@ -419,7 +419,7 @@ main{
   margin-top: 20px;
 }
 
-.box-4 h4::after{
+.box-4 .piu::after{
 content: "+";
 display: inline-block;
 font-size: 24px;
@@ -573,3 +573,54 @@ a.btn-grey:hover{
 }
 
 /* /Footer */
+
+/* Chat */
+.robot-mex{
+  position: fixed;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 0px 3px 3px rgba(136, 136, 136, 0.2);
+  height: 150px;
+  width: 240px;
+  bottom: 11%;
+  right: 1%;
+}
+
+.cloud{
+  position: fixed;
+  text-align: center;
+  bottom: 2%;
+  right: 1%;
+}
+
+.robot-mex img{
+  width: 60px;
+  transform: translateY(-50%);
+  /* z-index: 100; */
+}
+
+.robot-mex p{
+  border-radius: 5px;
+  color: #33475b;
+  transform: translateY(-45%);
+  /* width: 200px; */
+  /* padding: 30px 20px; */
+  /* z-index: 99; */
+}
+
+.cloud{
+  box-shadow: none;
+  text-align: right;
+  background-color: rgba(136, 136, 136, 0);
+  margin-top: 5px;
+}
+
+.cloud i{
+  color: white;
+  font-size: 45px;
+  background-color: #33475b;
+  border-radius: 50%;
+  text-align: right;
+  padding: 10px;
+}
+/* Chat */
